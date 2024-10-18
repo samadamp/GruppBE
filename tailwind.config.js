@@ -7,8 +7,6 @@ export default {
       Secondary: "#50E3C2",
       Accent: "#95c0f2",
       Background: "#d7d8d9",
-      Text: "#4A4A4A",
-      Toggle: "#6cdd3b",
       red: "#da1708",
       white: "#ffffff",
     },
