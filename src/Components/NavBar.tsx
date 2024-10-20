@@ -1,19 +1,18 @@
 import { Link } from "react-router-dom";
+import Search from "./Search";
+import CreateEvent from "./CreateEvent";
 
 
 const NavBAr = () => {
 
     return (
         <>
-        <div className="flex items-center justify-between bg-Primary p-4 rounded-b-xl ">
-        #SearchComponent#
-        <Link to ="/">{<h1 className="text-4xl ml-96">Event Planer</h1>}</Link>
-        <div className="mr-9">
-        </div>
-        
-        <div className="text-3xl">+ Create Event</div> 
-        
-        </div>
+            <div className="flex items-center justify-around flex-wrap w-full border-2 bg-Primary p-4">
+                <div><Link to="/"><img src="/logo.png" alt="logo" /></Link></div>
+                <Search />
+                <CreateEvent />
+
+            </div>
         </>
     )
 }
