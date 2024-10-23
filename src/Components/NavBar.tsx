@@ -11,7 +11,6 @@ const NavBAr = () => {
                 <div><Link to="/"><img src="/logo.png" alt="logo" /></Link></div>
                 <Search />
                 <CreateEvent />
-<p>HHHH</p>
             </div>
         </>
     )
